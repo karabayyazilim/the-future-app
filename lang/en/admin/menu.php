@@ -5,5 +5,6 @@ return [
     'category' => 'Category',
     'artist' => 'Artist',
     'movie' => 'Movie',
+    'degree' => 'Degree'
 ];
 

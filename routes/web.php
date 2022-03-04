@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\Admin\ArtistController;
 use App\Http\Controllers\Admin\CategoryController;
+use App\Http\Controllers\Admin\DegreeController;
 use App\Http\Controllers\Admin\MovieController;
 use Illuminate\Support\Facades\Route;
 
@@ -26,6 +27,7 @@ Route::prefix('/admin')->name('admin.')->middleware('auth')->group(function () {
         'category' => CategoryController::class,
         'artist' => ArtistController::class,
         'movie' => MovieController::class,
+        'degree' => DegreeController::class,
     ]);
 });
 

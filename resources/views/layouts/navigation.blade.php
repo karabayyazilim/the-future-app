@@ -24,6 +24,9 @@
                     <x-nav-link :href="route('admin.movie.index')" :active="request()->routeIs('admin.movie*')">
                         {{ __('admin/menu.movie') }}
                     </x-nav-link>
+                    <x-nav-link :href="route('admin.degree.index')" :active="request()->routeIs('admin.degree*')">
+                        {{ __('admin/menu.degree') }}
+                    </x-nav-link>
                 </div>
             </div>
 

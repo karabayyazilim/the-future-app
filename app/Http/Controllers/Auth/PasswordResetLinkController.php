@@ -16,7 +16,6 @@ class PasswordResetLinkController extends Controller
      */
     public function create()
     {
-        Movie::create(['title' => $reques->title, 'year' => 'bar']);
         return view('auth.forgot-password');
     }
 
