@@ -81,6 +81,7 @@ class DegreeController extends Controller
     public function update(Request $request, Degree $degree)
     {
         $this->degreeService->update($request, $degree->id);
+
         return redirect()->route('admin.degree.index');
     }
 
